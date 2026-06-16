@@ -1,0 +1,97 @@
+id: 22k222p4
+workspaceId: gy0f66HAUR
+kind: personal
+name: Local
+color: '#27ae60'
+shared: true
+variables:
+- key: BASE_URL
+  value: http://localhost:8787
+  encrypted: false
+  enabled: true
+- key: GRAPHQL_URL
+  value: http://localhost:8787/graphql
+  encrypted: false
+  enabled: true
+- key: WS_URL
+  value: ws://localhost:8787/battle
+  encrypted: false
+  enabled: true
+- key: GRPC_TARGET
+  value: localhost:50051
+  encrypted: false
+  enabled: true
+- key: BEARER_TOKEN
+  value: TR41N3R-t0k3n-2026
+  encrypted: false
+  enabled: true
+- key: API_KEY
+  value: pikachu-secret-key
+  encrypted: false
+  enabled: true
+- key: TRAINER_USER
+  value: ash
+  encrypted: false
+  enabled: true
+- key: TRAINER_PASS
+  value: pallet-town
+  encrypted: false
+  enabled: true
+- key: TRAINER_NICKNAME
+  value: '{{ faker.person.firstName() }}'
+  encrypted: false
+  enabled: true
+- key: DEVICE_ID
+  value: '{{ uuid.v4() }}'
+  encrypted: false
+  enabled: true
+- key: OAUTH_CLIENT_ID
+  value: pokedex-client
+  encrypted: false
+  enabled: true
+- key: OAUTH_CLIENT_SECRET
+  value: pokedex-secret
+  encrypted: false
+  enabled: true
+- key: DIGEST_USER
+  value: ash
+  encrypted: false
+  enabled: true
+- key: DIGEST_PASS
+  value: pokemon123
+  encrypted: false
+  enabled: true
+- key: QUERY_API_KEY
+  value: pokedex-query-key
+  encrypted: false
+  enabled: true
+- key: AWS_ACCESS_KEY
+  value: AKIAIOSFODNN7EXAMPLE
+  encrypted: false
+  enabled: true
+- key: AWS_SECRET_KEY
+  value: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+  encrypted: false
+  enabled: true
+- key: OAUTH1_CONSUMER_KEY
+  value: pokedex-consumer
+  encrypted: false
+  enabled: true
+- key: OAUTH1_CONSUMER_SECRET
+  value: consumer-secret-9f3c
+  encrypted: false
+  enabled: true
+- key: NTLM_USER
+  value: ash
+  encrypted: false
+  enabled: true
+- key: NTLM_PASS
+  value: pokemon123
+  encrypted: false
+  enabled: true
+- key: NTLM_DOMAIN
+  value: KANTO
+  encrypted: false
+  enabled: true
+createdAt: 2026-06-15T23:17:14.268801
+updatedAt: 2026-06-15T23:32:48.479048

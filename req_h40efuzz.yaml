@@ -1,0 +1,27 @@
+id: h40efuzz
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: m9cmbtzu
+method: POST
+name: List Pokémon (paginated)
+url: '{{ GRAPHQL_URL }}'
+body:
+  kind: graphql
+  text: |-
+    query ListPokemon($limit: Int!, $offset: Int!, $type: String) {
+      pokemons(limit: $limit, offset: $offset, type: $type) {
+        count
+        results {
+          id
+          name
+          types
+        }
+      }
+    }
+  graphqlVariables: '{ "limit": 6, "offset": 0, "type": "water" }'
+auth:
+  kind: none
+order: 1781565527478.0
+createdAt: 2026-06-15T23:18:47.478685
+updatedAt: 2026-06-15T23:19:22.433816

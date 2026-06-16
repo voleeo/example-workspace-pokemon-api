@@ -1,0 +1,15 @@
+id: wpv57gh8
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: Bearer Token
+url: '{{ BASE_URL }}/api/v1/secure/echo'
+auth:
+  kind: bearer
+  token: '{{ BEARER_TOKEN }}'
+  token_encrypted: false
+order: 1781566374812.0
+createdAt: 2026-06-15T23:32:54.812168
+updatedAt: 2026-06-15T23:33:30.000000

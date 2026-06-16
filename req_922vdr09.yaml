@@ -1,0 +1,13 @@
+id: 922vdr09
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: GET
+name: Traced Search (faker + uuid query)
+url: '{{ BASE_URL }}/api/v1/pokemon?limit=2&trainer={{ faker.person.firstName() }}&traceId={{ uuid.v4() }}'
+auth:
+  kind: none
+order: 1781566785857.0
+createdAt: 2026-06-15T23:39:45.857213
+updatedAt: 2026-06-15T23:39:45.857213

@@ -1,0 +1,13 @@
+id: pigoo2wg
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: GET
+name: Server Error (500)
+url: '{{ BASE_URL }}/api/v1/status/500'
+auth:
+  kind: none
+order: 1781565508596.0
+createdAt: 2026-06-15T23:18:28.596223
+updatedAt: 2026-06-15T23:18:28.596223

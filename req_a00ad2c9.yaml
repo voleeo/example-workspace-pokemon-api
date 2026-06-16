@@ -1,0 +1,17 @@
+id: a00ad2c9
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: API Key (query)
+url: '{{ BASE_URL }}/api/v1/secure/apikey'
+auth:
+  kind: api_key
+  key: api_key
+  value: '{{ QUERY_API_KEY }}'
+  location: query
+  value_encrypted: false
+order: 1781566378507.0
+createdAt: 2026-06-15T23:32:58.507454
+updatedAt: 2026-06-15T23:33:30.000000

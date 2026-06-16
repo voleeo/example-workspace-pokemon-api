@@ -1,0 +1,15 @@
+id: gy0f66HAUR
+name: Pokémon API
+model: workspace
+encrypted: false
+headers:
+- id: default-user-agent
+  name: User-Agent
+  value: voleeo
+  enabled: true
+- id: default-accept
+  name: Accept
+  value: '*/*'
+  enabled: true
+createdAt: 2026-06-15T23:16:46.859719
+updatedAt: 2026-06-16T17:05:00.409742+00:00

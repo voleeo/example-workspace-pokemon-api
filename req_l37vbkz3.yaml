@@ -1,0 +1,21 @@
+id: l37vbkz3
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: OAuth 2.0 (Client Credentials)
+url: '{{ BASE_URL }}/api/v1/secure/oauth2'
+auth:
+  kind: oauth2
+  grant_type: client_credentials
+  token_url: '{{ BASE_URL }}/oauth/token'
+  client_id: '{{ OAUTH_CLIENT_ID }}'
+  client_secret: '{{ OAUTH_CLIENT_SECRET }}'
+  client_secret_encrypted: false
+  scope: 'pokedex:read'
+  client_auth: request_body
+  use_pkce: false
+order: 1781566381335.0
+createdAt: 2026-06-15T23:33:01.335539
+updatedAt: 2026-06-15T23:33:30.000000

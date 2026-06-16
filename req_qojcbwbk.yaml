@@ -1,0 +1,24 @@
+id: qojcbwbk
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: m9cmbtzu
+method: POST
+name: Catch Pokémon (mutation)
+url: '{{ GRAPHQL_URL }}'
+body:
+  kind: graphql
+  text: |-
+    mutation CatchPokemon($name: String!) {
+      catchPokemon(idOrName: $name) {
+        id
+        name
+        caught
+      }
+    }
+  graphqlVariables: '{ "name": "mewtwo" }'
+auth:
+  kind: none
+order: 1781565529866.0
+createdAt: 2026-06-15T23:18:49.866484
+updatedAt: 2026-06-15T23:19:25.952229

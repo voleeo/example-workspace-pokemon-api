@@ -1,0 +1,17 @@
+id: hudivhy1
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: API Key (header)
+url: '{{ BASE_URL }}/api/v1/secure/echo'
+auth:
+  kind: api_key
+  key: X-API-Key
+  value: '{{ API_KEY }}'
+  location: header
+  value_encrypted: false
+order: 1781566377562.0
+createdAt: 2026-06-15T23:32:57.562381
+updatedAt: 2026-06-15T23:33:30.000000

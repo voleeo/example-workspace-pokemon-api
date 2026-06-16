@@ -1,0 +1,24 @@
+id: rs1lck7p
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: m9cmbtzu
+method: POST
+name: Catch Looked-up Pokémon (chained)
+url: '{{ GRAPHQL_URL }}'
+body:
+  kind: graphql
+  text: |-
+    mutation CatchPokemon($name: String!) {
+      catchPokemon(idOrName: $name) {
+        id
+        name
+        caught
+      }
+    }
+  graphqlVariables: '{ "name": "{{ response.body(requestId="31bq31vz", selector="$.name") }}" }'
+auth:
+  kind: none
+order: 1781566787250.0
+createdAt: 2026-06-15T23:39:47.250672
+updatedAt: 2026-06-16T10:02:02.952117

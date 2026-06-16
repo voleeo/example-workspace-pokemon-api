@@ -1,0 +1,15 @@
+id: 1g45xq7x
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: DELETE
+name: Delete Pokémon
+url: '{{ BASE_URL }}/api/v1/pokemon/1000'
+auth:
+  kind: bearer
+  token: '{{ BEARER_TOKEN }}'
+  token_encrypted: false
+order: 1781565507144.0
+createdAt: 2026-06-15T23:18:27.144080
+updatedAt: 2026-06-15T23:21:30.000000

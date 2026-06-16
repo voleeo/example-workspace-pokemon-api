@@ -1,0 +1,18 @@
+id: zg6uahsm
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: OAuth 1.0
+url: '{{ BASE_URL }}/api/v1/secure/echo'
+auth:
+  kind: oauth1
+  consumer_key: '{{ OAUTH1_CONSUMER_KEY }}'
+  consumer_secret: '{{ OAUTH1_CONSUMER_SECRET }}'
+  consumer_secret_encrypted: false
+  signature_method: hmac_sha1
+  params_location: header
+order: 1781566382745.0
+createdAt: 2026-06-15T23:33:02.745164
+updatedAt: 2026-06-15T23:33:30.000000

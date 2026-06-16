@@ -1,0 +1,16 @@
+id: 0vkdoc4g
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: GET
+name: Trainer Profile (Basic Auth)
+url: '{{ BASE_URL }}/api/v1/trainer/me'
+auth:
+  kind: basic
+  username: '{{ TRAINER_USER }}'
+  password: '{{ TRAINER_PASS }}'
+  password_encrypted: false
+order: 1781565505736.0
+createdAt: 2026-06-15T23:18:25.736831
+updatedAt: 2026-06-15T23:20:00.000000

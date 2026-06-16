@@ -1,0 +1,13 @@
+id: bxqetuic
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: GET
+name: List Pokémon
+url: '{{ BASE_URL }}/api/{{ API_VERSION }}/pokemon'
+auth:
+  kind: none
+order: 1781565497255.0
+createdAt: 2026-06-15T23:18:17.255441
+updatedAt: 2026-06-15T23:28:17.539229

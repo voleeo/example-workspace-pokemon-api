@@ -1,0 +1,16 @@
+id: wh80wcgd
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: Digest Auth
+url: '{{ BASE_URL }}/api/v1/secure/digest'
+auth:
+  kind: digest
+  username: '{{ DIGEST_USER }}'
+  password: '{{ DIGEST_PASS }}'
+  password_encrypted: false
+order: 1781566379920.0
+createdAt: 2026-06-15T23:32:59.920357
+updatedAt: 2026-06-15T23:33:30.000000

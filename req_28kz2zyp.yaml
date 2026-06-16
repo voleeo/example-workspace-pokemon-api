@@ -1,0 +1,16 @@
+id: 28kz2zyp
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: Basic Auth
+url: '{{ BASE_URL }}/api/v1/secure/echo'
+auth:
+  kind: basic
+  username: '{{ TRAINER_USER }}'
+  password: '{{ TRAINER_PASS }}'
+  password_encrypted: false
+order: 1781566376150.0
+createdAt: 2026-06-15T23:32:56.150223
+updatedAt: 2026-06-15T23:33:30.000000

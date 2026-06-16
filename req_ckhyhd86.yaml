@@ -1,0 +1,34 @@
+id: ckhyhd86
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: m9cmbtzu
+method: POST
+name: Trainer & Team (nested)
+url: '{{ GRAPHQL_URL }}'
+body:
+  kind: graphql
+  text: |-
+    query TrainerTeam {
+      trainer {
+        name
+        hometown
+        badges
+        team {
+          ...PokemonCard
+        }
+      }
+    }
+
+    fragment PokemonCard on Pokemon {
+      id
+      name
+      types
+      baseExperience
+    }
+  graphqlVariables: '{}'
+auth:
+  kind: none
+order: 1781565528890.0
+createdAt: 2026-06-15T23:18:48.890797
+updatedAt: 2026-06-15T23:19:24.075240

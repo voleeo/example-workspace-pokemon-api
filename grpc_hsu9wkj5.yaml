@@ -1,0 +1,22 @@
+id: hsu9wkj5
+type: api
+model: grpc_request
+workspaceId: gy0f66HAUR
+folderId: 6hn4x8c8
+name: BattleStream (server streaming)
+target: localhost:50051
+tls: false
+protoSource:
+  kind: reflection
+service: pokemon.v1.PokedexService
+method: BattleStream
+message: |-
+  {
+    "attacker": "pikachu",
+    "defender": "gengar"
+  }
+auth:
+  kind: none
+order: 1781565538893.0
+createdAt: 2026-06-15T23:18:58.893545
+updatedAt: 2026-06-15T23:20:00.000000

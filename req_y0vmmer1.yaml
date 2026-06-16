@@ -1,0 +1,25 @@
+id: y0vmmer1
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: PATCH
+name: Update Pokémon (partial)
+url: '{{ BASE_URL }}/api/v1/pokemon/squirtle'
+headers:
+- id: h_ct
+  name: Content-Type
+  value: application/json
+  enabled: true
+body:
+  kind: json
+  text: |-
+    {
+      "weight": 120
+    }
+auth:
+  kind: inherit
+  from: workspace
+order: 1781565502905.0
+createdAt: 2026-06-15T23:18:22.905066
+updatedAt: 2026-06-15T23:20:00.000000

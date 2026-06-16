@@ -1,0 +1,12 @@
+id: dkagexk4
+type: api
+model: ws_connection
+workspaceId: gy0f66HAUR
+folderId: phsxzzak
+name: Battle Arena
+url: '{{ WS_URL }}'
+auth:
+  kind: none
+order: 1781565541027.0
+createdAt: 2026-06-15T23:19:01.027640
+updatedAt: 2026-06-15T23:19:01.027640

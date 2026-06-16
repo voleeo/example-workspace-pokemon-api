@@ -1,0 +1,34 @@
+id: i53gfij9
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: m9cmbtzu
+method: POST
+name: Create Pokémon (mutation)
+url: '{{ GRAPHQL_URL }}'
+body:
+  kind: graphql
+  text: |-
+    mutation CreatePokemon($input: CreatePokemonInput!) {
+      createPokemon(input: $input) {
+        id
+        name
+        types
+        height
+        weight
+      }
+    }
+  graphqlVariables: |-
+    {
+      "input": {
+        "name": "{{ faker.animal.type() }}",
+        "types": ["normal"],
+        "height": 12,
+        "weight": 220
+      }
+    }
+auth:
+  kind: none
+order: 1781565531243.0
+createdAt: 2026-06-15T23:18:51.243157
+updatedAt: 2026-06-15T23:19:27.282016

@@ -1,0 +1,17 @@
+id: global
+workspaceId: gy0f66HAUR
+kind: global
+name: Global Environment
+color: ''
+shared: true
+variables:
+- key: API_VERSION
+  value: v1
+  encrypted: false
+  enabled: true
+- key: USER_AGENT
+  value: Voleeo-Pokedex/1.0
+  encrypted: false
+  enabled: true
+createdAt: 2026-06-15T23:20:00.000000
+updatedAt: 2026-06-15T23:28:07.978640

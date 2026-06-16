@@ -1,0 +1,24 @@
+id: wjs67r9g
+type: api
+model: grpc_request
+workspaceId: gy0f66HAUR
+folderId: 6hn4x8c8
+name: CreatePokemon (unary)
+target: localhost:50051
+tls: false
+protoSource:
+  kind: reflection
+service: pokemon.v1.PokedexService
+method: CreatePokemon
+message: |-
+  {
+    "name": "{{ faker.animal.type() }}-mon",
+    "types": ["electric"],
+    "height": 7,
+    "weight": 88
+  }
+auth:
+  kind: none
+order: 1781565535448.0
+createdAt: 2026-06-15T23:18:55.448436
+updatedAt: 2026-06-15T23:20:00.000000

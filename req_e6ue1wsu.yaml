@@ -1,0 +1,32 @@
+id: e6ue1wsu
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: POST
+name: Create Pokémon
+url: '{{ BASE_URL }}/api/v1/pokemon'
+headers:
+- id: h_ct
+  name: Content-Type
+  value: application/json
+  enabled: true
+body:
+  kind: json
+  text: |-
+    {
+      "name": "{{ faker.animal.type() }}-mon",
+      "types": ["electric", "steel"],
+      "height": 14,
+      "weight": 320,
+      "registeredBy": "{{ TRAINER_NICKNAME }}",
+      "deviceId": "{{ DEVICE_ID }}",
+      "registeredAt": "{{ timestamp.iso() }}"
+    }
+auth:
+  kind: bearer
+  token: '{{ BEARER_TOKEN }}'
+  token_encrypted: false
+order: 1781565500080.0
+createdAt: 2026-06-15T23:18:20.080830
+updatedAt: 2026-06-15T23:20:00.000000

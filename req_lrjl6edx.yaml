@@ -1,0 +1,28 @@
+id: lrjl6edx
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: POST
+name: Catch Pokémon
+url: '{{ BASE_URL }}/api/v1/pokemon/snorlax/catch'
+headers:
+- id: h_ct
+  name: Content-Type
+  value: application/json
+  enabled: true
+body:
+  kind: json
+  text: |-
+    {
+      "ball": "ultra-ball"
+    }
+auth:
+  kind: api_key
+  key: X-API-Key
+  value: '{{ API_KEY }}'
+  location: header
+  value_encrypted: false
+order: 1781565504356.0
+createdAt: 2026-06-15T23:18:24.356315
+updatedAt: 2026-06-15T23:20:00.000000

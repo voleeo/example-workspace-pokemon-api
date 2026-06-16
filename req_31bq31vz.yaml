@@ -1,0 +1,22 @@
+id: 31bq31vz
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: GET
+name: Get Pokémon by name
+url: '{{ BASE_URL }}/api/v1/pokemon/pikachu'
+headers:
+- id: h_accept
+  name: Accept
+  value: application/json
+  enabled: true
+- id: h_reqid
+  name: X-Request-Id
+  value: '{{ uuid.v4() }}'
+  enabled: true
+auth:
+  kind: none
+order: 1781565498696.0
+createdAt: 2026-06-15T23:18:18.696937
+updatedAt: 2026-06-15T23:20:00.000000

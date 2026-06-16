@@ -1,0 +1,17 @@
+id: 7uswi6we
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: NTLM
+url: '{{ BASE_URL }}/api/v1/secure/echo'
+auth:
+  kind: ntlm
+  username: '{{ NTLM_USER }}'
+  password: '{{ NTLM_PASS }}'
+  password_encrypted: false
+  domain: '{{ NTLM_DOMAIN }}'
+order: 1781566385256.0
+createdAt: 2026-06-15T23:33:05.256820
+updatedAt: 2026-06-15T23:33:30.000000

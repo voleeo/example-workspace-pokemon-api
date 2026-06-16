@@ -1,0 +1,32 @@
+id: mcssp3b8
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: m9cmbtzu
+method: POST
+name: Get Pokémon
+url: '{{ GRAPHQL_URL }}'
+body:
+  kind: graphql
+  text: |-
+    query GetPokemon($name: String!) {
+      pokemon(idOrName: $name) {
+        id
+        name
+        types
+        height
+        weight
+        abilities
+        stats {
+          name
+          base
+        }
+        sprite
+      }
+    }
+  graphqlVariables: '{ "name": "pikachu" }'
+auth:
+  kind: none
+order: 1781565526101.0
+createdAt: 2026-06-15T23:18:46.101552
+updatedAt: 2026-06-15T23:19:19.954867

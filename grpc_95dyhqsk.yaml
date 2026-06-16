@@ -1,0 +1,18 @@
+id: 95dyhqsk
+type: api
+model: grpc_request
+workspaceId: gy0f66HAUR
+folderId: 6hn4x8c8
+name: ListPokemon (server streaming)
+target: localhost:50051
+tls: false
+protoSource:
+  kind: reflection
+service: pokemon.v1.PokedexService
+method: ListPokemon
+message: '{ "limit": 5 }'
+auth:
+  kind: none
+order: 1781565537574.0
+createdAt: 2026-06-15T23:18:57.574656
+updatedAt: 2026-06-15T23:20:00.000000

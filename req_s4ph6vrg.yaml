@@ -1,0 +1,29 @@
+id: s4ph6vrg
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: PUT
+name: Replace Pokémon
+url: '{{ BASE_URL }}/api/v1/pokemon/charmander'
+headers:
+- id: h_ct
+  name: Content-Type
+  value: application/json
+  enabled: true
+body:
+  kind: json
+  text: |-
+    {
+      "name": "charmander",
+      "types": ["fire"],
+      "height": 6,
+      "weight": 99,
+      "baseExperience": 70
+    }
+auth:
+  kind: inherit
+  from: workspace
+order: 1781565501496.0
+createdAt: 2026-06-15T23:18:21.496475
+updatedAt: 2026-06-15T23:20:00.000000

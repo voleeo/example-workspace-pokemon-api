@@ -1,0 +1,13 @@
+id: bvec2kq9
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: w2ce1uj7
+method: GET
+name: Health Check
+url: '{{ BASE_URL }}/health'
+auth:
+  kind: none
+order: 1781565509312.0
+createdAt: 2026-06-15T23:18:29.312053
+updatedAt: 2026-06-15T23:18:29.312053
