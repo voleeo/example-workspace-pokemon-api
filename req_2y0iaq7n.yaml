@@ -1,0 +1,25 @@
+id: 2y0iaq7n
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: nfyl64j1
+method: GET
+name: OAuth 2.0 (Implicit)
+url: '{{ BASE_URL }}/api/v1/secure/oauth2'
+auth:
+  kind: oauth2
+  grant_type: implicit
+  auth_url: '{{ BASE_URL }}/oauth/authorize'
+  token_url: ''
+  client_id: '{{ OAUTH_CLIENT_ID }}'
+  client_secret: enc:v1:E7614A66A32DD367CB811E9DC6B65F74FFA4A70F19578413F02E9621
+  client_secret_encrypted: true
+  scope: pokedex:read
+  client_auth: basic_header
+  use_pkce: false
+  password: enc:v1:17FBDF8CB25FA6FC76236DB17B958CD2222C927B146858CEC4D5CBD3
+  password_encrypted: true
+  use_external_browser: false
+order: 1782420521294.0
+createdAt: 2026-06-25T20:48:41.293092
+updatedAt: 2026-06-25T20:49:48.013649

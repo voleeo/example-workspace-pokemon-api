@@ -1,7 +1,8 @@
 id: gy0f66HAUR
 name: Pokémon API
 model: workspace
-encrypted: false
+encrypted: true
+keyCheck: enc:v1:77202E4076B12CFFB4705FD538F3F8EF7730394ABEBEA9472A00A2A6F8CD60913F4B72766F49
 headers:
 - id: default-user-agent
   name: User-Agent

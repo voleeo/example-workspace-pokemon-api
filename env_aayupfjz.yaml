@@ -6,28 +6,28 @@ color: '#eb5757'
 shared: true
 variables:
 - key: BASE_URL
-  value: https://api.pokemon.example.com
-  encrypted: false
+  value: enc:v1:28AFA4D126327FDA9D483180AFD73211B34CEB3FB7396F04E870DD3A448D178FE2D0133B0F218D3D04C86847471C1D5E3F2C947E88D1D28F448FB1
+  encrypted: true
   enabled: true
 - key: GRAPHQL_URL
-  value: https://api.pokemon.example.com/graphql
-  encrypted: false
+  value: enc:v1:A266DFBACF52834280C4CDDA9510B6CE3A461184EBE9BA5E8435FC2CB889F1E87F3701EA02E30F758F2C88502C8FFFE093984FAE09065665A677E0BFACAD1C95592A65
+  encrypted: true
   enabled: true
 - key: WS_URL
-  value: wss://api.pokemon.example.com/battle
-  encrypted: false
+  value: enc:v1:64949B2896EC2DFEABEB43EB3C9BCF083D97C77E2D2CF535E8C4DEDCF08132CBE75B7B573CBACB03AF37FC9FD62B247033889307003BE37A394268E1826B8C86
+  encrypted: true
   enabled: true
 - key: GRPC_TARGET
   value: grpc.pokemon.example.com:443
   encrypted: false
   enabled: true
 - key: BEARER_TOKEN
-  value: prod-tr41n3r-token
-  encrypted: false
+  value: enc:v1:270A93DF5D74F74C6062C1ECC152993E028E806987BEC2009BC625615FAF088889E8F9D72CCC5672B03BFECB2CBF
+  encrypted: true
   enabled: true
 - key: API_KEY
   value: prod-pokedex-api-key
   encrypted: false
   enabled: true
 createdAt: 2026-06-15T23:17:15.672448
-updatedAt: 2026-06-15T23:18:15.846075
+updatedAt: 2026-06-22T21:35:05.093413
