@@ -19,7 +19,7 @@ auth:
   use_pkce: false
   password: enc:v1:17FBDF8CB25FA6FC76236DB17B958CD2222C927B146858CEC4D5CBD3
   password_encrypted: true
-  use_external_browser: false
+  use_external_browser: true
 order: 1782420521294.0
 createdAt: 2026-06-25T20:48:41.293092
-updatedAt: 2026-06-25T20:49:48.013649
+updatedAt: 2026-06-26T17:36:18.277971
