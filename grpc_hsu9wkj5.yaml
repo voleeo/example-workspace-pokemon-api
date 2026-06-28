@@ -10,13 +10,9 @@ protoSource:
   kind: reflection
 service: pokemon.v1.PokedexService
 method: BattleStream
-message: |-
-  {
-    "attacker": "pikachu",
-    "defender": "gengar"
-  }
+message: '{"attacker":"pikachu","defender":"gengar"}'
 auth:
   kind: none
 order: 1781565538893.0
 createdAt: 2026-06-15T23:18:58.893545
-updatedAt: 2026-06-15T23:20:00.000000
+updatedAt: 2026-06-27T21:59:58.178137
