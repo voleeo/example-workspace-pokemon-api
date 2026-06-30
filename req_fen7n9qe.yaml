@@ -1,0 +1,13 @@
+id: fen7n9qe
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: xvelspwd
+method: GET
+name: Endless stream
+url: '{{ BASE_URL }}/api/v1/stream'
+auth:
+  kind: none
+order: 1782753505148.0
+createdAt: 2026-06-29T17:18:25.148946
+updatedAt: 2026-06-30T15:15:48.051357

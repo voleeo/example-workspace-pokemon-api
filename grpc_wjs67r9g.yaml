@@ -10,15 +10,9 @@ protoSource:
   kind: reflection
 service: pokemon.v1.PokedexService
 method: CreatePokemon
-message: |-
-  {
-    "name": "{{ faker.animal.type() }}-mon",
-    "types": ["electric"],
-    "height": 7,
-    "weight": 88
-  }
+message: '{"name":"{{ faker.animal.type() }}-mon","types":["electric"],"height":7,"weight":88}'
 auth:
   kind: none
 order: 1781565535448.0
 createdAt: 2026-06-15T23:18:55.448436
-updatedAt: 2026-06-15T23:20:00.000000
+updatedAt: 2026-06-30T17:35:41.402083

@@ -1,0 +1,18 @@
+id: 7t5lukfp
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: xvelspwd
+method: GET
+name: Stop after N token
+url: '{{ BASE_URL }}/api/v1/stream'
+parameters:
+- id: hrr6xme0
+  name: count
+  value: '20'
+  enabled: true
+auth:
+  kind: none
+order: 1782753505149.0
+createdAt: 2026-06-29T22:05:03.047327
+updatedAt: 2026-06-29T22:05:22.680593

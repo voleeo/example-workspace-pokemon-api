@@ -10,9 +10,9 @@ protoSource:
   kind: reflection
 service: pokemon.v1.PokedexService
 method: ListPokemon
-message: '{ "limit": 5 }'
+message: '{"limit":5}'
 auth:
   kind: none
 order: 1781565537574.0
 createdAt: 2026-06-15T23:18:57.574656
-updatedAt: 2026-06-15T23:20:00.000000
+updatedAt: 2026-06-29T18:03:36.651487

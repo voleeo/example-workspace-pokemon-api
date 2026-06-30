@@ -1,0 +1,18 @@
+id: zqw5kn5y
+type: api
+model: http_request
+workspaceId: gy0f66HAUR
+folderId: xvelspwd
+method: GET
+name: Slow it down or speed it up
+url: '{{ BASE_URL }}/api/v1/stream'
+parameters:
+- id: gnq91ste
+  name: delay
+  value: '0'
+  enabled: true
+auth:
+  kind: none
+order: 1782753505150.0
+createdAt: 2026-06-29T22:06:13.256662
+updatedAt: 2026-06-30T16:39:05.646070
